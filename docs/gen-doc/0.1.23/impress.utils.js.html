@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Source: impress.utils.js</title>
+    
+    
+    
+    
+    
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":true,"cleverLinks":true,"default":{"outputSourceFiles":true},"applicationName":"impress.js","disqus":"","googleAnalytics":"","openGraph":{"title":"","type":"","image":"","site_name":"","url":""},"meta":{"title":"","description":"","keyword":""}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">impress.js</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="impress">
+            <span class="title">
+                <a href="impress.html">impress</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="impress.applications"><a href="impress.html#applications">applications</a></li>
+            
+                <li data-name="impress.applicationsDir"><a href="impress.html#applicationsDir">applicationsDir</a></li>
+            
+                <li data-name="impress.compressAbove"><a href="impress.html#compressAbove">compressAbove</a></li>
+            
+                <li data-name="impress.compressedExt"><a href="impress.html#compressedExt">compressedExt</a></li>
+            
+                <li data-name="impress.configDir"><a href="impress.html#configDir">configDir</a></li>
+            
+                <li data-name="impress.customHttpCodes"><a href="impress.html#customHttpCodes">customHttpCodes</a></li>
+            
+                <li data-name="impress.defaultAccess"><a href="impress.html#defaultAccess">defaultAccess</a></li>
+            
+                <li data-name="impress.defaultSandboxModules"><a href="impress.html#defaultSandboxModules">defaultSandboxModules</a></li>
+            
+                <li data-name="impress.defaultSlowTime"><a href="impress.html#defaultSlowTime">defaultSlowTime</a></li>
+            
+                <li data-name="impress.dir"><a href="impress.html#dir">dir</a></li>
+            
+                <li data-name="impress.fileIsEmpty"><a href="impress.html#fileIsEmpty">fileIsEmpty</a></li>
+            
+                <li data-name="impress.fileNotFound"><a href="impress.html#fileNotFound">fileNotFound</a></li>
+            
+                <li data-name="impress.httpErrorCodes"><a href="impress.html#httpErrorCodes">httpErrorCodes</a></li>
+            
+                <li data-name="impress.isMainApplication"><a href="impress.html#isMainApplication">isMainApplication</a></li>
+            
+                <li data-name="impress.isWin"><a href="impress.html#isWin">isWin</a></li>
+            
+                <li data-name="impress.longWorkers"><a href="impress.html#longWorkers">longWorkers</a></li>
+            
+                <li data-name="impress.mimeTypes"><a href="impress.html#mimeTypes">mimeTypes</a></li>
+            
+                <li data-name="impress.stat"><a href="impress.html#stat">stat</a></li>
+            
+                <li data-name="impress.templateNotFound"><a href="impress.html#templateNotFound">templateNotFound</a></li>
+            
+                <li data-name="impress.templatesDir"><a href="impress.html#templatesDir">templatesDir</a></li>
+            
+                <li data-name="impress.workers"><a href="impress.html#workers">workers</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="impress.crcSID"><a href="impress.html#crcSID">crcSID</a></li>
+            
+                <li data-name="impress.dispatcher"><a href="impress.html#dispatcher">dispatcher</a></li>
+            
+                <li data-name="impress.fork"><a href="impress.html#fork">fork</a></li>
+            
+                <li data-name="impress.generateSID"><a href="impress.html#generateSID">generateSID</a></li>
+            
+                <li data-name="impress.require"><a href="impress.html#require">require</a></li>
+            
+                <li data-name="impress.shutdown"><a href="impress.html#shutdown">shutdown</a></li>
+            
+                <li data-name="impress.subst"><a href="impress.html#subst">subst</a></li>
+            
+                <li data-name="impress.validateSID"><a href="impress.html#validateSID">validateSID</a></li>
+            
+                <li data-name="impress.value"><a href="impress.html#value">value</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.async">
+            <span class="title">
+                <a href="impress.async.html">impress.async</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.cluster">
+            <span class="title">
+                <a href="impress.cluster.html">impress.cluster</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.colors">
+            <span class="title">
+                <a href="impress.colors.html">impress.colors</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.crypto">
+            <span class="title">
+                <a href="impress.crypto.html">impress.crypto</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.dgram">
+            <span class="title">
+                <a href="impress.dgram.html">impress.dgram</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.dns">
+            <span class="title">
+                <a href="impress.dns.html">impress.dns</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.domain">
+            <span class="title">
+                <a href="impress.domain.html">impress.domain</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.events">
+            <span class="title">
+                <a href="impress.events.html">impress.events</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.exec">
+            <span class="title">
+                <a href="impress.exec.html">impress.exec</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.fs">
+            <span class="title">
+                <a href="impress.fs.html">impress.fs</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.http">
+            <span class="title">
+                <a href="impress.http.html">impress.http</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.https">
+            <span class="title">
+                <a href="impress.https.html">impress.https</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.iconv">
+            <span class="title">
+                <a href="impress.iconv.html">impress.iconv</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.mkdirp">
+            <span class="title">
+                <a href="impress.mkdirp.html">impress.mkdirp</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.multiparty">
+            <span class="title">
+                <a href="impress.multiparty.html">impress.multiparty</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.net">
+            <span class="title">
+                <a href="impress.net.html">impress.net</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.npm">
+            <span class="title">
+                <a href="impress.npm.html">impress.npm</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.os">
+            <span class="title">
+                <a href="impress.os.html">impress.os</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.path">
+            <span class="title">
+                <a href="impress.path.html">impress.path</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.querystring">
+            <span class="title">
+                <a href="impress.querystring.html">impress.querystring</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.readline">
+            <span class="title">
+                <a href="impress.readline.html">impress.readline</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.server">
+            <span class="title">
+                <a href="impress.server.html">impress.server</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="impress.server.restart"><a href="impress.server.html#restart">restart</a></li>
+            
+                <li data-name="impress.server.start"><a href="impress.server.html#start">start</a></li>
+            
+                <li data-name="impress.server.stop"><a href="impress.server.html#stop">stop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.stream">
+            <span class="title">
+                <a href="impress.stream.html">impress.stream</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.url">
+            <span class="title">
+                <a href="impress.url.html">impress.url</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.utils">
+            <span class="title">
+                <a href="impress.utils.html">impress.utils</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="impress.utils.baseHeader"><a href="impress.utils.html#baseHeader">baseHeader</a></li>
+            
+                <li data-name="impress.utils.compress"><a href="impress.utils.html#compress">compress</a></li>
+            
+                <li data-name="impress.utils.fileExt"><a href="impress.utils.html#fileExt">fileExt</a></li>
+            
+                <li data-name="impress.utils.isTimeEqual"><a href="impress.utils.html#isTimeEqual">isTimeEqual</a></li>
+            
+                <li data-name="impress.utils.watchCache"><a href="impress.utils.html#watchCache">watchCache</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.vm">
+            <span class="title">
+                <a href="impress.vm.html">impress.vm</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.zlib">
+            <span class="title">
+                <a href="impress.zlib.html">impress.zlib</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="impress.Client">
+            <span class="title">
+                <a href="impress.Client.html">impress.Client</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="impress.Client#deleteCookie"><a href="impress.Client.html#deleteCookie">deleteCookie</a></li>
+            
+                <li data-name="impress.Client#destroySession"><a href="impress.Client.html#destroySession">destroySession</a></li>
+            
+                <li data-name="impress.Client#end"><a href="impress.Client.html#end">end</a></li>
+            
+                <li data-name="impress.Client#error"><a href="impress.Client.html#error">error</a></li>
+            
+                <li data-name="impress.Client#execute"><a href="impress.Client.html#execute">execute</a></li>
+            
+                <li data-name="impress.Client#fileHandler"><a href="impress.Client.html#fileHandler">fileHandler</a></li>
+            
+                <li data-name="impress.Client#fork"><a href="impress.Client.html#fork">fork</a></li>
+            
+                <li data-name="impress.Client#include"><a href="impress.Client.html#include">include</a></li>
+            
+                <li data-name="impress.Client#index"><a href="impress.Client.html#index">index</a></li>
+            
+                <li data-name="impress.Client#introspect"><a href="impress.Client.html#introspect">introspect</a></li>
+            
+                <li data-name="impress.Client#processing"><a href="impress.Client.html#processing">processing</a></li>
+            
+                <li data-name="impress.Client#processingPage"><a href="impress.Client.html#processingPage">processingPage</a></li>
+            
+                <li data-name="impress.Client#proxy"><a href="impress.Client.html#proxy">proxy</a></li>
+            
+                <li data-name="impress.Client#redirect"><a href="impress.Client.html#redirect">redirect</a></li>
+            
+                <li data-name="impress.Client#render"><a href="impress.Client.html#render">render</a></li>
+            
+                <li data-name="impress.Client#restoreSession"><a href="impress.Client.html#restoreSession">restoreSession</a></li>
+            
+                <li data-name="impress.Client#saveSession"><a href="impress.Client.html#saveSession">saveSession</a></li>
+            
+                <li data-name="impress.Client#sendCookie"><a href="impress.Client.html#sendCookie">sendCookie</a></li>
+            
+                <li data-name="impress.Client#setCookie"><a href="impress.Client.html#setCookie">setCookie</a></li>
+            
+                <li data-name="impress.Client#startSession"><a href="impress.Client.html#startSession">startSession</a></li>
+            
+                <li data-name="impress.Client#static"><a href="impress.Client.html#static">static</a></li>
+            
+                <li data-name="impress.Client#template"><a href="impress.Client.html#template">template</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="impress.utils.js.html">Source: impress.utils.js</h1>
+        
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source"><code>(function(impress) {
+
+	/**
+	 * @namespace
+	 * @alias impress.utils
+	 */
+	var utils = impress.utils = {};
+
+	/**
+	 * @param fileName
+	 * @returns {*|XML|string|void}
+	 */
+	utils.fileExt = function(fileName) {
+		return impress.path.extname(fileName).replace('.','');
+	};
+
+
+	/**
+	 * @param since
+	 * @param mtime
+	 * @returns {boolean}
+	 */
+	utils.isTimeEqual = function(since, mtime) {
+		return (new Date(mtime)).getTime() == (new Date(since)).getTime();
+	};
+
+	/**
+	 * Refresh static in memory cache with compression and minification
+	 *
+	 * @param filePath
+	 * @param stats
+	 * @param application
+	 * @param [client]
+	 * @param [httpCode]
+	 */
+	utils.compress = function(filePath, stats, application, client, httpCode) {
+		impress.fs.readFile(filePath, function(error, data) {
+			if (error) {
+				if (client) client.error(404);
+			} else {
+				var ext = client ? client.typeExt : utils.fileExt(filePath);
+				if (ext == 'js' && application.config.files.minify) {
+					data = impress.minify(data);
+					stats.size = data.length;
+				}
+				if (!inArray(impress.compressedExt, ext) && stats.size>impress.compressAbove) {
+					impress.zlib.gzip(data, function(err, data) {
+						stats.size = data.length;
+						if (client) {
+							client.res.writeHead(httpCode, utils.baseHeader(ext, stats, true));
+							client.end(data);
+						}
+						application.cache.static[filePath] = {data:data, stats:stats, compressed: true};
+					});
+				} else {
+					if (client) {
+						client.res.writeHead(httpCode, utils.baseHeader(ext, stats));
+						client.end(data);
+					}
+					application.cache.static[filePath] = {data:data, stats:stats, compressed: false};
+				}
+				utils.watchCache(application, filePath);
+			}
+		});
+	};
+
+	/**
+	 * Send HTTP headers
+	 *
+	 * @param ext
+	 * @param stats
+	 * @param compressed
+	 * @returns {Object}
+	 */
+	utils.baseHeader = function(ext, stats, compressed) {
+		compressed = typeof(compressed) !== 'undefined' ? compressed : false;
+		var header = {
+			'Transfer-Encoding': 'chunked',
+			'Content-Type': impress.mimeTypes[ext],
+			'Cache-Control': 'public'
+		};
+		if (!inArray(impress.compressedExt, ext) && compressed) header['Content-encoding'] = 'gzip';
+		if (stats) {
+			//var start = 0, end = stats.size-1;
+			//header['Accept-Ranges' ] = 'bytes';
+			//header['Content-Range' ] = 'bytes '+start+'-'+end+'/'+stats.size;
+			header['Content-Length'] = stats.size;
+			header['Last-Modified' ] = stats.mtime.toGMTString();
+		}
+		return header;
+	};
+
+	/**
+	 * Clear cache hash starts with given substring
+	 *
+	 * @param cache
+	 * @param startsWith
+	 * @param callback
+	 */
+	function clearCacheStartingWith(cache, startsWith, callback) {
+		for (var key in cache) {
+			if (key.startsWith(startsWith)) {
+				delete cache[key];
+				if (callback) callback(key);
+			}
+		}
+	}
+
+	/**
+	 * Cache watchers
+	 *
+	 * @param application
+	 * @param filePath
+	 */
+	utils.watchCache = function(application, filePath) {
+		var path = filePath;
+		if (!filePath.endsWith("/")) path = impress.path.dirname(path)+"/";
+		if (application) {
+			var watcher = application.cache.watchers[path];
+			if (!watcher) {
+				impress.fs.exists(path, function(exists) {
+					if (exists) {
+						watcher = impress.fs.watch(path, function(event, fileName) {
+							var filePath = (fileName) ? path+fileName : path,
+								ext = utils.fileExt(fileName),
+								watcher = application.cache.watchers[path];
+							if (watcher.timers[filePath]) clearTimeout(watcher.timers[filePath]);
+							watcher.timers[filePath] = setTimeout(function() {
+								impress.fs.stat(filePath, function(err, stats) {
+									if (err) return;
+									if (stats.isFile()) {
+										if (application.cache.static[filePath]) {
+											// Replace static files memory cache
+											impress.fs.exists(filePath, function(exists) {
+												if (exists) utils.compress(filePath, stats, application);
+											});
+										} else if (ext == 'js' && (filePath in application.cache.scripts)) {
+											// Replace changed js file in cache
+											impress.fs.exists(filePath, function(exists) {
+												if (exists) {
+													application.cache.scripts[filePath] = null;
+													application.createScript('', filePath, function(err, key, exports) {
+														application.cache.scripts[filePath] = exports;
+														if (filePath.startsWith(application.configDir)) {
+															var sectionName = filePath.replace(application.configDir+'/','').replace('.js', '');
+															application.config[sectionName] = exports;
+															application.preprocessConfig();
+														}
+													});
+												} else {
+													delete application.cache.scripts[filePath];
+													if (filePath.startsWith(application.configDir)) {
+														var sectionName = filePath.replace(application.configDir+'/','').replace('.js', '');
+														delete application.config[sectionName];
+													}
+												}
+											});
+										} else if (ext == 'template') {
+											// Replace changed template file in cache
+											delete application.cache.templates[filePath];
+											delete application.cache.files[filePath];
+											impress.fs.exists(filePath, function(exists) {
+												if (exists) impress.fs.readFile(filePath, 'utf8', function(err, tpl) {
+													if (!err) {
+														if (!tpl) tpl = impress.fileIsEmpty;
+														else tpl = tpl.replace(/^[\uBBBF\uFEFF]/, '');
+														application.cache.templates[filePath] = tpl;
+														clearCacheStartingWith(application.cache.pages, path);
+													}
+												});
+											});
+										}
+									} else {
+										// Clear cache for all changed folders (created or deleted files)
+										clearCacheStartingWith(application.cache.static, filePath);
+										clearCacheStartingWith(application.cache.files, filePath, function(used) {
+											var ext = utils.fileExt(used);
+											if (ext == 'js' && (used in application.cache.scripts)) {
+												delete application.cache.scripts[used];
+											} else if (ext == 'template' && (used in application.cache.templates)) {
+												delete application.cache.templates[used];
+											}
+										});
+										clearCacheStartingWith(application.cache.pages, filePath);
+									}
+								});
+							}, 2000);
+						});
+						watcher.timers = [];
+						application.cache.watchers[path] = watcher;
+					}
+				});
+			}
+		}
+	}
+
+} (global.impress = global.impress || {}));
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+
+        
+
+        <footer>
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Apr 22 2014 02:33:12 GMT+0300 (EEST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

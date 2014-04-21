@@ -54,5 +54,12 @@
     "node": ">=0.10.6"
   },
   "readmeFilename": "README.md",
-  "scripts" : { "install" : "node install.js" }
+  "scripts": {
+    "install": "node install.js"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-jsdoc": "^0.5.4",
+    "jaguarjs-jsdoc": "git://github.com/tblasv/jaguarjs-jsdoc.git"
+  }
 }
